@@ -16,6 +16,7 @@ library(latex2exp)
 # Get all the parameter settings from the files in the data/ folder ---
 cat("Getting parameter settings and loading the data from the data/ folder\n")
 source("parameter-settings.R")
+source("plot.R") 
 source("loadData.R")
 
 # Load the individual tabs ---

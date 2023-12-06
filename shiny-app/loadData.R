@@ -1,3 +1,5 @@
+source("plot.R") 
+
 confusion_matrices <- readr::read_rds("data/confusion-matrices.rds")
 
 only_sim_param$id <- 1:nrow(only_sim_param)
